@@ -1,2 +1,97 @@
 -Made in 1995 by Sun technologies by a team led by james gosling.
 
+-L5 : Variables
+
+>Data is stroed in database for long term.
+> For some time, we can store data in a Variable
+>Java is a strongly typed language
+Variables-String,int,float,char,boolean.
+
+Syntax: type variableName=value;
+
+>Identifiers: variables should be identified by unique names...
+
+-L6: Data types
+
+> Primitive datatypes: byte,short,int, long,float,double,boolean,char
+>Non-primitive: String,Arrays,Classes
+>User-defined
+
+>Primitive datatypes always have a value while non primitive are created by user and can be null
+
+-L7: TypeCasting in Java
+
+Widening Casting(automatically): converting a smaller type to a larger type size
+byte->short->char->int->long->float->double
+
+Narrow Casting(manual):vice versa
+
+-L8: Operators
+
+Arithmetic: +, -, *, /, %, ++, --
+Assignment: = ,+=, -= , *=, /= ,&= , >>=, <<=
+Comparison:== ,!= ,> ,< ,>= ,<=
+Logical:&& , || ,!
+Bitwise:& , | 
+
+-L9: Strings
+
+>> string length= str.length();
+>> toUpperCase(),toLowerCase();
+>> indexOf(): return index of first occurence of specified text in a string;
+>> Concatenation: +
+>> String+number= string after concatenating both
+>> Special Characters: escape characters( \'  , \" ,\\ , \n , \r, \t, \b, \f);
+
+
+-L10: Math in Java
+
+>> Math.max(5,10) //10
+>> Math.min(5,10) //5
+>> Math.sqrt(64)
+>> Math.abs(-4.7);
+>> Math.random();
+
+- L10: Java If-Else
+if(condition){
+
+}else if(condition){
+
+}else{
+
+}
+
+-L11: Ternary Operators
+
+variable=(condition) ? expressionTrue : expressionFalse
+
+-L12: Switch statements
+
+switch(expression){
+    case x:
+    //code block
+    case y:
+    //code block
+    default:
+    //code block
+}
+
+>> Break keyword
+
+- L13: While and do while loops: same as cpp
+-L14: For loops: same as cpp
+-L15: for-each loop: same as cpp (vo auto it: nums wala)
+-L16:Break and continue statements
+
+-L17: Arrays in Java
+String[] cars={"Volvo","Honda"}
+cars.length();
+int[] num={10,20,30,40}
+
+multidimensional arrays: String[][] cars={{"Volva","Honda"},{"Skoda"}};
+
+
+
+
+
+
