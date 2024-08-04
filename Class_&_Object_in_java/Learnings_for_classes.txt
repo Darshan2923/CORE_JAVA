@@ -1,0 +1,25 @@
+-HOw does jvm and jdk all run?
+JDK converts normal code to bytecode so jvm can execute it.
+JVM uses its space to run the code.
+All the libraries and dependencies come from JRE.
+
+>> Methods and Method Overloading
+
+>> JVM has stack and heap memory
+
+>> Variables in java: Local variable of methods, instance variable of class, global variable.
+
+>>Scope in Java: Method Scope and block Scope
+
+>>Array of objects
+
+>>Strings are immutable in java... you cant change value in the string, instead java creates a copy of string for change.
+You can create a mutable string using stringBuffer and stringBuilder
+
+>> static variable is shared by all the objects: common for all 
+>>static method and variable can be called directly by using:  name_of_class.static_method_name()
+>>You cant use non-static varible in static class
+>>But we can bypass that using class_name.static_method_name(obj1)
+
+
+>> When you run the code, FIrst the Class Loads and then objects are instantiated.

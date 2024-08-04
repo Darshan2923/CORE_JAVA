@@ -9,6 +9,7 @@ Variables-String,int,float,char,boolean.
 
 Syntax: type variableName=value;
 
+>Literals: value of the variables are called literals
 >Identifiers: variables should be identified by unique names...
 
 -L6: Data types
@@ -89,6 +90,8 @@ cars.length();
 int[] num={10,20,30,40}
 
 multidimensional arrays: String[][] cars={{"Volva","Honda"},{"Skoda"}};
+
+
 
 
 
