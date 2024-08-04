@@ -1,0 +1,11 @@
+>>Main class wali file is always kept in the folder
+
+>>Public variable/methods can be accessed all over 
+Methods should be genrally public 
+>>Private only in same class
+>>Protected not outside the package and if outside the package, it should be subclass
+>>Default in same package
+
+>>
+
+
