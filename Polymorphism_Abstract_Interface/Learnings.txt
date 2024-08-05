@@ -1,0 +1,22 @@
+Types of Interfaces->
+1.Normal
+2.Functional/SAM
+3.Marker
+
+>> Exception handling
+
+Error
+Types: Compile time error,
+Runtime error -> This are the exceptions and we need to handle them,
+ Logical error
+
+ >> Exception Hierarchy
+ Object class   
+      |
+    Throwable
+      |
+_______________
+|             |
+Error       Exception
+
+>> throws tab use hota hai jab tumhe khud responsibility nai lena to handle exception using try catch block ulta parent ko bhej do vo karega try catch...
