@@ -15,7 +15,7 @@ class A implements Runnable {
 class B extends Thread {
     public void run() {
         for (int i = 1; i <= 5; i++) {
-            System.out.println("hieloo");
+            System.out.println("hell        55654545434o");
             try {
 
                 Thread.sleep(10);

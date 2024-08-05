@@ -1,0 +1,6 @@
+States of a Thread:
+New -> Waiting -> Runnable -> Running -> Dead
+
+Collection API-> concept of collections
+Collection -> Interface
+Collections -> Class
